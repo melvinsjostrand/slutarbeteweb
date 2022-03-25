@@ -1,0 +1,59 @@
+/*gridsystem på index sida*/
+main{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 10% 30%;
+    display: grid;
+    width: 80%;
+    margin: auto;
+  
+}
+/* För att välja vart bilden ska sitta och hur stor*/
+img{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+}
+/*färg till huvud taggen*/
+h1{
+    color: #00203FFF;
+}
+/*väljer vart p taggen ska sitta i griden och väljer färg på den*/
+p{
+    grid-row:3/4;
+    color: #00203FFF;
+}
+
+/* får ner formen lite genom margin och lägger formen i mitten med hjälp av text-align*/
+form{
+    text-align: center;
+    margin-top: 40px;
+}
+/* väljer färg till min label*/
+label , input{
+color: #00203FFF;
+}
+
+@media screen and (max-width: 1065px){
+    main{
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+text-align: center;
+    }
+img{
+    grid-column: 1;
+    grid-row:1;
+}    
+
+form{
+    margin: 0;
+}
+
+}
+@media screen and (max-width: 350px){
+    form{
+        margin-top: 20%;
+    }
+ }
+#00203FFF
+#ADEFD1FF
