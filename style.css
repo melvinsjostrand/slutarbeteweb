@@ -4,3 +4,45 @@
     font-family: 'Inconsolata', monospace;
     background-color: #ADEFD1FF;
     }
+
+    body {
+        margin: 0;
+      }
+/*---underline hover---*/
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+    position: relative;
+  }
+  
+  header nav ul li a {
+    color: var(--color--T_X);
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  @media screen and (min-width:991px) {
+    nav ul li::after {
+      content: "";
+      width: 0%;
+      height: 1px;
+      background: #2B362D;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+      margin-top: -.1em;
+    }
+  
+    header nav ul li:hover::after {
+      width: calc(100%);
+    }
+  }
