@@ -5,31 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="info.css">
     <title>Info</title>
 </head>
 <body>
     <header>
         <div id="myLinks">
            <nav>
-               <h1>
-                   <a href="INFO.html">
-                   <img src="bilder/istockphoto-1182383458-1024x1024.jpg" alt="Bild på logo">
-                   Gamerz
-                </a>
-               </h1>
+
+                   <img id="headerimg" src="bilder/istockphoto-1182383458-1024x1024.jpg" alt="Bild på logo">
+
          
             <div>
                <ul>
               <li><a href="Chassi.html">Chassi</a></li>
               <li><a href="CPU.html">CPU</a></li>
+              <li><a href="GPU.html">GPU</a></li>
               <li><a href="Moderkort.html">Moderkort</a></li>
               <li><a href="ram.html">Ram</a></li>
-              <li><a href="nätagg.html">Nätagg</a></li>
+              <li><a href="nätagg.html">nätaggregat</a></li>
               <li><a href="exit.html">Exit</a></li>
             </ul>
         </nav>
           </div>
         </div>
     </header>
+
+    <main class="maingrid">
+        <h1>
+            Vad kommer du lära dig på hemsidan?
+        </h1>
+        <p>
+        Denna hemsidan är gjord så att du kan lära dig om datorer och deras olika delar. Du kommer mest lära dig om det olika delarna och vad du borde skaffa om du skulle vilja börja spela.
+        </p>
+        <img src="bilder/olikadelar.jpg" alt="olika datordelar">
+        <table>
+
+        </table>
+        <H2>Vad skulle du vilja lära dig mest?</H2>
+        <form action=""></form>
+        <input type="checkbox" id="chassi" name="chassi" value="chassi">
+        <label for="chassi">Chassi</label><br>
+        <input type="checkbox" id="CPU" name="CPU" value="CPU">
+        <label for="CPU"> CPU</label><br>
+        <input type="checkbox" id="RAM" name="RAM" value="RAM">
+        <label for="RAM"> Ram</label><br>
+        <input type="checkbox" id="GPU" name="GPU" value="GPU" >
+        <label for="GPU">GPU</label><br>
+        <input type="checkbox" id="Moderkort" name="Moderkort" value="Moderkort" >
+        <label for="Moderkort">Moderkort</label><br>
+        <input type="checkbox" id="nätagg" name="nätagg" value="nätagg" >
+        <label for="nätagg">nätaggregat</label>
+    </main>
 </body>
+
 </html>

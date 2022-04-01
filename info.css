@@ -1,0 +1,13 @@
+#headerimg{
+    height: 300px;
+    width: 100%
+}
+.maingrid{
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 0.5fr 3fr 3fr;
+    display: grid;
+}
+
+h1,p{
+  grid-column: 1/3; 
+}
