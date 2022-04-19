@@ -30,38 +30,56 @@ form{
   grid-row:5/6;
 }
 
-@media screen and (max-width:1000px) {
-
-  .topnav {
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-    background-color:#ADEFD1FF ;
-  }
-  
-  .topnav a {
-    color: #00203FFF;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    background: #ADEFD1FF;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  
-  
+a[href="#nav"]{
+  display: none;
 }
+
+
+  @media screen and (max-width:1000px){
+    header{
+      display: grid;
+    grid-template-columns: 1fr;
+}
+  img{
+   width: 100%;
+}
+    .maingrid{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    /*Ändrar burgarmenyns utseende*/
+    a[href="#nav"]{
+        display: block;
+        color: var(--white);
+
+        margin-left: auto;
+        margin-right: 40px;
+    }
+
+    /*Gör burgar menyn stängd vid start + utsende på ul med burgar meny*/
+    #nav{
+        display: none;
+        grid-template-columns: 1fr;
+        grid-column: 1/3;
+        padding: 0;
+        padding-top: 10px;
+
+        background-color: #ADEFD1;
+    }
+
+    /*Gör border runt li*/
+    nav ul li {
+        border: solid #ADEFD1FF .1px;
+    }
+}
+@media screen and (min-width:1001px){
+  #nav{
+      display: flex !important;
+  }
+}
+
+  
+  /* color code
+#00203F
+#ADEFD1 ljus grön
+          */

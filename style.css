@@ -2,14 +2,15 @@
 
 :root{
     font-family: 'Inconsolata', monospace;
-    background-color: #ADEFD1FF;
+  
+    color:#00203F;
     }
 
     body {
         margin: 0;
       }
 
- header nav{
+ header {
       display: grid;
     grid-template-columns: 2fr 4fr;
 }

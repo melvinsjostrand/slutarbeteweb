@@ -1,3 +1,7 @@
+
+body{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)
+}
 /*gridsystem på index sida*/
 main{
     grid-template-columns: 50% 50%;
@@ -16,22 +20,26 @@ img{
 }
 /*färg till huvud taggen*/
 h1{
-    color: #00203FFF;
+    color: #00203F;
+    background-color: white;
 }
 /*väljer vart p taggen ska sitta i griden och väljer färg på den*/
 p{
     grid-row:3/4;
-    color: #00203FFF;
+    color: #00203F;
+    background-color: white;
 }
 
 /* får ner formen lite genom margin och lägger formen i mitten med hjälp av text-align*/
 form{
     text-align: center;
     margin-top: 40px;
+    background-color: white;
 }
 /* väljer färg till min label*/
 label , input{
-color: #00203FFF;
+color: #00203F;
+back
 }
 
 @media screen and (max-width: 1065px){
@@ -55,5 +63,7 @@ form{
         margin-top: 20%;
     }
  }
-#00203FFF
-#ADEFD1FF
+/*
+#00 20 3F
+#ADEFD1
+*/
