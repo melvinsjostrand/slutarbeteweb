@@ -34,12 +34,12 @@ p{
 form{
     text-align: center;
     margin-top: 40px;
-    background-color: white;
+    
 }
 /* väljer färg till min label*/
 label , input{
 color: #00203F;
-back
+background-color: white;
 }
 
 @media screen and (max-width: 1065px){
