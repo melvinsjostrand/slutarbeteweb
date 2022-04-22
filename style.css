@@ -2,7 +2,7 @@
 
 :root{
     font-family: 'Inconsolata', monospace;
-  
+    background-color: #ADEFD1;
     color:#00203F;
     }
 
@@ -17,7 +17,6 @@
 
 header img{
     vertical-align: middle;
-    margin-right: 40px;
     height: 100px;
     width: 20rem;
     justify-self: center;
@@ -44,6 +43,19 @@ header nav ul {
     font-size: 20px;
   }
   
+  .knapp{
+    color: black;
+    border:black 2px solid;
+    display:border;
+    width: 20%;
+    justify-self: center;
+    text-align: center;
+    background-color: white;
+    margin-top:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
   @media screen and (min-width:991px) {
     nav ul li::after {
       content: "";
@@ -60,3 +72,4 @@ header nav ul {
       width: calc(100%);
     }
   }
+

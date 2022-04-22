@@ -33,15 +33,44 @@ form{
 a[href="#nav"]{
   display: none;
 }
+.knapp{
+  color: black;
+  border:black 2px solid;
+  display:border;
+  width: 20%;
+  justify-self: center;
+  text-align: center;
+  background-color: white;
+  margin-top:auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+   }
 
 
-  @media screen and (max-width:1000px){
+
+  @media screen and (max-width:1470px){
     header{
       display: grid;
     grid-template-columns: 1fr;
 }
+main{
+  grid-template-columns: 1fr;
+}
+table{
+  grid-row:5/6;
+}
+h2{
+  grid-row:6/7;
+}
+form{
+  grid-row:7/8;
+}
   img{
    width: 100%;
+}
+
+a.knapp{
+grid-row:8/9
 }
     .maingrid{
       grid-template-columns: 1fr;
@@ -72,7 +101,7 @@ a[href="#nav"]{
         border: solid #ADEFD1FF .1px;
     }
 }
-@media screen and (min-width:1001px){
+@media screen and (min-width:1471px){
   #nav{
       display: flex !important;
   }
