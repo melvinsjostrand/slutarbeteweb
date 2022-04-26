@@ -2,9 +2,16 @@
 
 :root{
     font-family: 'Inconsolata', monospace;
-    background-color: #ADEFD1;
-    color:#00203F;
+    background-color:hsl(152.7,67.3%,80.8%);
+   
     }
+
+    ul li a:link{color:#00203F}
+    ul li a:visited{color:darkgreen}
+    ul li a:focus{font-weight: bold;}
+    ul li a:hover{text-decoration: underline;}
+    ul li a:active{color:green}
+
 
     body {
         margin: 0;

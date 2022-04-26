@@ -19,6 +19,10 @@ width: 100%;
 height: 300px;
   }
   
+  .fa.fa-bars{
+    font-size: 40px;
+  }
+
    /*Ändrar burgarmenyns utseende*/
     a[href="#nav"]{
         display: block;
@@ -43,6 +47,10 @@ height: 300px;
     nav ul li {
         border: solid #ADEFD1FF .1px;
     }
+
+    nav ul li::after{
+      height: 0px;
+     }
 }
 @media screen and (min-width:1471px){
   #nav{

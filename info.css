@@ -54,6 +54,7 @@ a[href="#nav"]{
     grid-template-columns: 1fr;
 }
 main{
+  margin-top: 50px;
   grid-template-columns: 1fr;
 }
 table{
@@ -100,6 +101,13 @@ grid-row:8/9
     nav ul li {
         border: solid #ADEFD1FF .1px;
     }
+nav ul li::after{
+ height: 0px;
+}
+
+.fa.fa-bars{
+  font-size: 40px;
+}
 }
 @media screen and (min-width:1471px){
   #nav{

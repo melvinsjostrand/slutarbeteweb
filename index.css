@@ -1,5 +1,5 @@
-
-body{
+/* min backgrundsfärg. gör så att den byter färg*/
+html{
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)
 }
 /*gridsystem på index sida*/
@@ -22,6 +22,7 @@ img{
 h1{
     color: #00203F;
     background-color: white;
+    height: 40px;
 }
 /*väljer vart p taggen ska sitta i griden och väljer färg på den*/
 p{
@@ -42,7 +43,7 @@ color: #00203F;
 background-color: white;
 }
 
-@media screen and (max-width: 1065px){
+@media screen and (max-width: 1230px){
     main{
 grid-template-columns: 1fr;
 grid-template-rows: 1fr;
