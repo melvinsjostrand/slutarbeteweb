@@ -1,103 +1,110 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="info.css">
-   <script src="dropdown.js" defer></script>
+    <script src="dropdown.js" defer></script>
     <title>Info</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        
-        <img id="headerimg" src="bilder/istockphoto-1182383458-1024x1024.jpg" alt="Bild på logo">
-
-           <nav>
-            
-
-                   
-            <a href="#nav"><i class="fa fa-bars" id="burgerButton"></i></a>
-            
-               <ul id="nav">
-              <li><a href="Chassi.html">Chassi</a></li>
-              <li><a href="CPU.html">CPU</a></li>
-              <li><a href="GPU.html">GPU</a></li>
-              <li><a href="Moderkort.html">Moderkort</a></li>
-              <li><a href="ram.html">Ram</a></li>
-              <li><a href="nätagg.html">nätaggregat</a></li>
-              <li><a href="exit.html">Exit</a></li>
-            </ul>
-        </nav>
-         
+      <img id="headerimg" src="bilder/istockphoto-1182383458-1024x1024.jpg" alt="Bild på logo">
+      <nav>
+        <a href="#nav">
+          <i class="fa fa-bars" id="burgerButton"></i>
+        </a>
+        <ul id="nav">
+          <li>
+            <a href="Chassi.html">Chassi</a>
+          </li>
+          <li>
+            <a href="CPU.html">CPU</a>
+          </li>
+          <li>
+            <a href="GPU.html">GPU</a>
+          </li>
+          <li>
+            <a href="Moderkort.html">Moderkort</a>
+          </li>
+          <li>
+            <a href="ram.html">Ram</a>
+          </li>
+          <li>
+            <a href="nätagg.html">nätaggregat</a>
+          </li>
+          <li>
+            <a href="exit.html">Exit</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
     <main class="maingrid">
-        <h1>
-            Vad kommer du lära dig på hemsidan?
-        </h1>
-        <p>
-        Denna hemsidan är gjord så att du kan lära dig om datorer och deras olika delar. Du kommer mest lära dig om det olika delarna och vad du borde skaffa om du skulle vilja börja spela.
-        </p>
-        <img src="bilder/olikadelar.jpg" alt="olika datordelar">
-        <table>
-            <tr>
-                <th> De mest populära företagen </th>
-            </tr>
-            <tr>
-                <th>Chassi</th>
-                <td>Fractal</td>
-                <td>Corsair</td>
-            </tr>
-            <tr>
-                <th>Moderkort</th>
-
-                <td>ASUS</td>
-                <td>MSI</td>
-            </tr>
-            <tr>
-                <th>CPU</th>
-                <td>INTEL</td>
-                <td>RYZEN</td>
-            </tr>
-            <tr>
-                <th>GPU</th>
-                <td>Nvidia</td>
-                <td>AMD</td>
-            </tr>
-            <tr>
-                <th>RAM</th>
-                <td>Corsair</td>
-                <td>Kingston</td>
-            </tr>
-            <tr>
-                <th>nätaggregat</th>
-                <td>Corsair</td>
-                <td>ASUS</td>
-            </tr>
-        </table>
-        <H2>Vad skulle du vilja lära dig mest?</H2>
-        <form action="INFO.html">
+      <h1> Vad kommer du lära dig på hemsidan? </h1>
+      <p> Denna hemsidan är gjord så att du kan lära dig om datorer och deras olika delar. Du kommer mest lära dig om det olika delarna och vad du borde skaffa om du skulle vilja börja spela. </p>
+      <img src="bilder/olikadelar.jpg" alt="olika datordelar">
+      <table>
+        <tr>
+          <th> De mest populära företagen </th>
+        </tr>
+        <tr>
+          <th>Chassi</th>
+          <td>Fractal</td>
+          <td>Corsair</td>
+        </tr>
+        <tr>
+          <th>Moderkort</th>
+          <td>ASUS</td>
+          <td>MSI</td>
+        </tr>
+        <tr>
+          <th>CPU</th>
+          <td>INTEL</td>
+          <td>RYZEN</td>
+        </tr>
+        <tr>
+          <th>GPU</th>
+          <td>Nvidia</td>
+          <td>AMD</td>
+        </tr>
+        <tr>
+          <th>RAM</th>
+          <td>Corsair</td>
+          <td>Kingston</td>
+        </tr>
+        <tr>
+          <th>nätaggregat</th>
+          <td>Corsair</td>
+          <td>ASUS</td>
+        </tr>
+      </table>
+      <H2>Vad skulle du vilja lära dig mest?</H2>
+      <form action="INFO.html">
         <input type="checkbox" id="chassi" name="chassi" value="chassi">
-        <label for="chassi">Chassi</label><br>
+        <label for="chassi">Chassi</label>
+        <br>
         <input type="checkbox" id="CPU" name="CPU" value="CPU">
-        <label for="CPU"> CPU</label><br>
+        <label for="CPU"> CPU</label>
+        <br>
         <input type="checkbox" id="RAM" name="RAM" value="RAM">
-        <label for="RAM"> Ram</label><br>
-        <input type="checkbox" id="GPU" name="GPU" value="GPU" >
-        <label for="GPU">GPU</label><br>
-        <input type="checkbox" id="Moderkort" name="Moderkort" value="Moderkort" >
-        <label for="Moderkort">Moderkort</label><br>
-        <input type="checkbox" id="nätagg" name="nätagg" value="nätagg" >
+        <label for="RAM"> Ram</label>
+        <br>
+        <input type="checkbox" id="GPU" name="GPU" value="GPU">
+        <label for="GPU">GPU</label>
+        <br>
+        <input type="checkbox" id="Moderkort" name="Moderkort" value="Moderkort">
+        <label for="Moderkort">Moderkort</label>
+        <br>
+        <input type="checkbox" id="nätagg" name="nätagg" value="nätagg">
         <label for="nätagg">nätaggregat</label>
         <br>
         <br>
         <input type="submit" value="Klar">
-    </form>
-<a class="knapp" href="Chassi.html">Nästa sida</a>
+      </form>
+      <a class="knapp" href="Chassi.html">Nästa sida</a>
     </main>
-</body>
-
+  </body>
 </html>

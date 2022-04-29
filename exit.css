@@ -7,3 +7,57 @@ input label{
     display:block
 
 }
+
+main{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto auto;
+    display: grid;
+}
+
+main iframe{
+    grid-column: 1/2;
+    grid-row:3/4;
+    margin-top: 20px;
+    width:560px;
+    height:315px;
+}
+
+.textarea{
+    grid-row:3/4;
+    grid-column: 2/3;
+
+}
+textarea{
+    width: 600px;
+    height: 240px;
+    resize: none;
+}
+
+audio{
+    margin-top:50px;
+    grid-row:4/5;
+}
+
+
+@media screen and (max-width:1200px) {
+    main{
+        grid-template-columns: 1fr ;
+    }
+    .textarea{
+        grid-column: 1/2;
+        grid-row:5/6;
+    }
+    textarea{
+        width: 100px;
+        height: 40px;
+         }
+
+    
+  }
+ 
+  @media screen and (max-width:900px) {
+main frame{
+    width: 100%;
+}
+      
+  }
