@@ -20,9 +20,10 @@ main iframe{
     margin-top: 20px;
     width:560px;
     height:315px;
+    border-radius: 1em;
 }
 
-.textarea{
+.fråga{
     grid-row:3/4;
     grid-column: 2/3;
 
@@ -48,8 +49,8 @@ audio{
         grid-row:5/6;
     }
     textarea{
-        width: 100px;
-        height: 40px;
+        width: 250px;
+        height: 70px;
          }
 
     
@@ -60,4 +61,14 @@ main frame{
     width: 100%;
 }
       
+  }
+
+
+  @media screen and (max-width:577px) {
+      main iframe{
+          width: 100%;
+      }
+      textarea{
+          width: 100px;
+      }
   }
