@@ -42,7 +42,7 @@ label , input{
 color: #00203F;
 background-color: white;
 }
-
+/* ändrar colum och row till en och texten centrerad*/
 @media screen and (max-width: 1230px){
     main{
 grid-template-columns: 1fr;
