@@ -61,8 +61,18 @@ header nav ul {
     margin-top:auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    
-  }
+     }
+
+
+    footer{
+      text-align: center;
+      background-color:blue;
+      color:white;
+      padding-top: 2.5em;
+      padding-bottom: 2.5em;
+      text-decoration: underline overline lightblue dotted;
+    }
+  
   @media screen and (min-width:991px) {
     nav ul li::after {
       content: "";

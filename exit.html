@@ -1,97 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exit</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="exit.css">
-    <link rel="stylesheet" href="dropdown.css">
-   <script src="dropdown.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="exit.css">
+  <link rel="stylesheet" href="dropdown.css">
+  <script src="dropdown.js" defer></script>
 </head>
+
 <body>
   <header>
-        
+
     <img id="headerimg" src="bilder/istockphoto-1182383458-1024x1024.jpg" alt="Bild på logo">
 
-       <nav>
-        
+    <nav>
 
-               
-        <a href="#nav"><i class="fa fa-bars" id="burgerButton"></i></a>
-        
-           <ul id="nav">
-          <li><a href="Chassi.html">Chassi</a></li>
-          <li><a href="CPU.html">CPU</a></li>
-          <li><a href="GPU.html">GPU</a></li>
-          <li><a href="Moderkort.html">Moderkort</a></li>
-          <li><a href="ram.html">Ram</a></li>
-          <li><a href="nätagg.html">nätaggregat</a></li>
-          <li><a href="exit.html">Exit</a></li>
-        </ul>
+
+
+      <a href="#nav"><i class="fa fa-bars" id="burgerButton"></i></a>
+
+      <ul id="nav">
+        <li><a href="INFO.html">INFO</a></li>
+        <li><a href="Chassi.html">Chassi</a></li>
+        <li><a href="CPU.html">CPU</a></li>
+        <li><a href="GPU.html">GPU</a></li>
+        <li><a href="Moderkort.html">Moderkort</a></li>
+        <li><a href="ram.html">Ram</a></li>
+        <li><a href="nätagg.html">nätaggregat</a></li>
+      </ul>
     </nav>
-     
-</header>
-<main>
 
-  <form action="exit.html">
-    <h1>
-      Build PC
-    </h1>
-<p>Välj chassi</p>
-<input type="radio" id="Fractal" name="chassi" value="Fractal">
-<label for="Fractal">Fractal</label>
-<input type="radio" id="Corsair" name="chassi" value="Corsair">
-<label for="Corsair">Corsair</label>
+  </header>
+  <main>
 
-<p>Välj Moderkort</p>
-<input type="radio" id="ASUS1" name="Moderkort" value="ASUS">
-<label for="ASUS1">ASUS</label>
-<input type="radio" id="MSI" name="Moderkort" value="MSI">
-<label for="MSI">MSI</label>
+    <form action="exit.html">
+      <h1>
+        Build PC
+      </h1>
+      <p>Välj chassi</p>
+      <input type="radio" id="Fractal" name="chassi" value="Fractal">
+      <label for="Fractal">Fractal</label>
+      <input type="radio" id="Corsair" name="chassi" value="Corsair">
+      <label for="Corsair">Corsair</label>
 
-<p>Välj CPU</p>
-<input type="radio" id="INTEL" name="CPU" value="INTEL">
-<label for="INTEL">INTEL</label>
-<input type="radio" id="RYZEN" name="CPU" value="RYZEN">
-<label for="RYZEN">RYZEN</label>
+      <p>Välj Moderkort</p>
+      <input type="radio" id="ASUS1" name="Moderkort" value="ASUS">
+      <label for="ASUS1">ASUS</label>
+      <input type="radio" id="MSI" name="Moderkort" value="MSI">
+      <label for="MSI">MSI</label>
 
-<p>Välj GPU</p>
-<input type="radio" id="Nvidia" name="GPU" value="Nvidia">
-<label for="Nvidia">Nvidia</label>
-<input type="radio" id="AMD" name="GPU" value="AMD">
-<label for="AMD">AMD</label>
+      <p>Välj CPU</p>
+      <input type="radio" id="INTEL" name="CPU" value="INTEL">
+      <label for="INTEL">INTEL</label>
+      <input type="radio" id="RYZEN" name="CPU" value="RYZEN">
+      <label for="RYZEN">RYZEN</label>
 
-<p>Välj ram</p>
-<input type="radio" id="Kingston" name="RAM" value="Kingston">
-<label for="Kingston">Kingston</label>
-<input type="radio" id="Corsair2" name="RAM" value="Corsair">
-<label for="Corsair2">Corsair</label>
+      <p>Välj GPU</p>
+      <input type="radio" id="Nvidia" name="GPU" value="Nvidia">
+      <label for="Nvidia">Nvidia</label>
+      <input type="radio" id="AMD" name="GPU" value="AMD">
+      <label for="AMD">AMD</label>
 
-<p>Välj nätaggregat</p>
-<input type="radio" id="ASUS2" name="nätaggregat" value="ASUS2">
-<label for="ASUS2">ASUS</label>
-<input type="radio" id="Corsair3" name="nätaggregat" value="Corsair">
-<label for="Corsair3">Corsair</label>
-<br>
-<br>
-<input type="submit" value="Klar">
-  </form>
+      <p>Välj ram</p>
+      <input type="radio" id="Kingston" name="RAM" value="Kingston">
+      <label for="Kingston">Kingston</label>
+      <input type="radio" id="Corsair2" name="RAM" value="Corsair">
+      <label for="Corsair2">Corsair</label>
+
+      <p>Välj nätaggregat</p>
+      <input type="radio" id="ASUS2" name="nätaggregat" value="ASUS2">
+      <label for="ASUS2">ASUS</label>
+      <input type="radio" id="Corsair3" name="nätaggregat" value="Corsair">
+      <label for="Corsair3">Corsair</label>
+      <br>
+      <br>
+      <input type="submit" value="Klar">
+    </form>
 
 
 
-  <iframe src="https://www.youtube.com/embed/PXaLc9AYIcg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <audio autoplay loop>
-    <source src="Bonaqua.mp3" type="audio/mp3">
-  </audio>
-  <form class="fråga" action="exit.html">
-    <h2>Frågor?</h2>
-    <textarea name="Frågor?"></textarea>
-    <br><br>
-    <input type="submit">
-  </form>
-</main>
+    <iframe src="https://www.youtube.com/embed/PXaLc9AYIcg" title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <audio autoplay loop>
+      <source src="Bonaqua.mp3" type="audio/mp3">
+    </audio>
+    <form class="fråga" action="exit.html">
+      <h2>Frågor?</h2>
+      <textarea name="Frågor?"></textarea>
+      <br><br>
+      <input type="submit">
+    </form>
+  </main>
+  <footer> Gjord av Melvin Sjöstrand</footer>
 </body>
+
+
 </html>
