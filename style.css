@@ -1,92 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
-:root{
-    font-family: 'Inconsolata', monospace;
-    background-color:hsl(152.7,67.3%,80.8%);
-   
-    }
+:root {
+  font-family: 'Inconsolata', monospace;
+  background-color: hsl(152.7, 67.3%, 80.8%);
 
-    ul li a:link{color:#00203F}
-    ul li a:visited{color:darkgreen}
-    ul li a:focus{font-weight: bold;}
-    ul li a:hover{text-decoration: underline;}
-    ul li a:active{color:green}
-
-
-    body {
-        margin: 0;
-      }
-
- header {
-      display: grid;
-    grid-template-columns: 2fr 4fr;
 }
 
-header img{
-    vertical-align: middle;
-    height: 100px;
-    width: 20rem;
-    justify-self: center;
-    }
+ul li a:link {
+  color: #00203F
+}
+
+ul li a:visited {
+  color: darkgreen
+}
+
+ul li a:focus {
+  font-weight: bold;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+ul li a:active {
+  color: green
+}
+
+
+body {
+  margin: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+
+header img {
+  vertical-align: middle;
+  height: 100px;
+  width: 20rem;
+  justify-self: center;
+}
+
 /*---underline hover---*/
 header nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    margin: 0;
-  }
-  
-  header nav ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 20px 30px;
-    position: relative;
-  }
-  
-  header nav ul li a {
-    color: var(--color--T_X);
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  .knapp{
-    color: black;
-    border:black 2px solid;
-    display:border;
-    width: 20%;
-    justify-self: center;
-    text-align: center;
-    background-color: white;
-    margin-top:auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-     }
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+  position: relative;
+}
+
+header nav ul li a {
+  color: var(--color--T_X);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.knapp {
+  color: black;
+  border: black 2px solid;
+  width: 20%;
+  justify-self: center;
+  text-align: center;
+  background-color: white;
+  margin-top: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 
-    footer{
-      text-align: center;
-      background-color:blue;
-      color:white;
-      padding-top: 2.5em;
-      padding-bottom: 2.5em;
-      text-decoration: underline overline lightblue dotted;
-    }
-  
-  @media screen and (min-width:991px) {
-    nav ul li::after {
-      content: "";
-      width: 0%;
-      height: 1px;
-      background: #2B362D;
-      display: block;
-      margin: auto;
-      transition: 0.5s;
-      margin-top: -.1em;
-    }
-  
-    header nav ul li:hover::after {
-      width: calc(100%);
-    }
+footer {
+
+  background-color: blue;
+  color: white;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+
+}
+
+footer p {
+  text-align: center;
+  text-decoration: underline overline lightblue dotted;
+}
+
+@media screen and (min-width:991px) {
+  nav ul li::after {
+    content: "";
+    width: 0%;
+    height: 1px;
+    background: #2B362D;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    margin-top: -.1em;
   }
 
+  header nav ul li:hover::after {
+    width: calc(100%);
+  }
+}

@@ -1,0 +1,46 @@
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 23% 77%;
+}
+
+main img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  
+}
+
+main p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left:3px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+td:nth-child(1) {
+    background-color: lightblue;
+}
+
+td:nth-child(2) {
+    background-color: lightgreen;
+}
+
+@media screen and (max-width:915px)
+
+    {
+
+    main {
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 34%;
+    }
+
+    main img{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+    }
+    main p{
+        grid-row:3/4;
+    }
+}
