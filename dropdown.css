@@ -1,7 +1,7 @@
 a[href="#nav"] {
   display: none;
 }
-
+/* gör om så att en knapp kommer fram + ändrar storleken på bilden + gör om grid stystemet*/
 @media screen and (max-width: 1470px) {
 
   header {

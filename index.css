@@ -29,7 +29,7 @@ h1 {
 }
 
 /*väljer vart p taggen ska sitta i griden och väljer färg på den*/
-p {
+main p {
     grid-row: 3/4;
     color: #00203F;
     background-color: white;

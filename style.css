@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+/*lägger till text-stil*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+/* lägger en text-stil och en bakgrundsfärg som fungerar på alla sidor och hela tiden*/
 :root {
   font-family: 'Inconsolata', monospace;
   background-color: hsl(152.7, 67.3%, 80.8%);
 
 }
 
-
+/* grid på body så jag får alltid får header längst upp body mitten och footer längst ner*/
 body{
   grid-template-rows: auto 10fr auto;
   display: grid;
   min-height: 100vh;
 }
+
+/* LoVe Focus HAte*/
 ul li a:link {
   color: #00203F
 }
@@ -32,16 +36,16 @@ ul li a:active {
   color: green
 }
 
-
+/* ta bort standard margin*/
 body {
   margin: 0;
 }
-
+/* lägger till header grid*/
 header {
   display: grid;
   grid-template-columns: 2fr 4fr;
 }
-
+/* väljer storlek och vart bilden ska vara*/
 header img {
   vertical-align: middle;
   height: 100px;
@@ -70,29 +74,42 @@ header nav ul li a {
   text-decoration: none;
   font-size: 20px;
 }
-
+/* knapp och knapp2 är lika, det är bara en knapp för att byta sida med*/
 .knapp {
   color: black;
   border: black 2px solid;
-  width: 20%;
-  justify-self: center;
-  text-align: center;
+  width: 100%;
   background-color: white;
   margin-top: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.knapp2 {
+  color: black;
+  border: black 2px solid;
+  width: 100%;
+  background-color: white;
+  margin-top: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
 }
 
 
+/* grid system till footer + bakgrundsfärg + vilken text färg*/
 footer {
-
+display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto;
   background-color: blue;
   color: white;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
 
 }
-
+/* lägger text i mitten + under och overline*/
 footer p {
   text-align: center;
   text-decoration: underline overline lightblue dotted;

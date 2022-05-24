@@ -1,15 +1,16 @@
+/* main grid*/
 main {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 23% 77%;
 }
-
+/*plats på main img*/
 main img {
     grid-column: 2/3;
     grid-row: 2/3;
   
 }
-
+/* plats på main p taggen och lite margin*/
 main p {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -17,7 +18,7 @@ main p {
     margin-bottom: 0%;
     margin-top: 0%;
 }
-
+/* i tablen så kommer första td:n vara ljusblå och andra ljusgrön*/
 td:nth-child(1) {
     background-color: lightblue;
 }
@@ -25,7 +26,7 @@ td:nth-child(1) {
 td:nth-child(2) {
     background-color: lightgreen;
 }
-
+/* gör det till en colum + ger en till row + ändrar plats på main img och main p*/
 @media screen and (max-width:915px)
 
     {
