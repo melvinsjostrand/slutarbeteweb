@@ -6,7 +6,7 @@ html {
 /*gridsystem på index sida*/
 main {
     grid-template-columns: 50% 50%;
-    grid-template-rows: 60% 10% 30%;
+    grid-template-rows: 80% 10% 10%;
     display: grid;
     width: 80%;
     margin: auto;
@@ -14,7 +14,7 @@ main {
 }
 
 /* För att välja vart bilden ska sitta och hur stor*/
-img {
+main img {
     grid-column: 1/3;
     grid-row: 1/2;
     width: 100%;
@@ -42,6 +42,11 @@ form {
 
 }
 
+footer img{
+    width: 100px;
+  
+}
+
 /* väljer färg till min label*/
 label,
 input {
@@ -49,7 +54,7 @@ input {
     background-color: white;
 }
 
-/* ändrar colum och row till en och texten centrerad*/
+/* ändrar colum och row till en  rad och colum och texten centrerad*/
 @media screen and (max-width: 1230px) {
     main {
         grid-template-columns: 1fr;

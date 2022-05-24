@@ -114,7 +114,7 @@ footer p {
   text-align: center;
   text-decoration: underline overline lightblue dotted;
 }
-
+/* underline text borta */
 @media screen and (min-width:991px) {
   nav ul li::after {
     content: "";
