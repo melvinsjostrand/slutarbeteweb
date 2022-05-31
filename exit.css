@@ -15,7 +15,7 @@ main {
     display: grid;
 }
 /* väljer storlek + vart den ligger och en border runt den*/
-main iframe {
+main ~ iframe {
     grid-column: 1/2;
     grid-row: 3/4;
     margin-top: 20px;

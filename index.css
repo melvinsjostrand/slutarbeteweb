@@ -8,7 +8,7 @@ main {
     grid-template-columns: 50% 50%;
     grid-template-rows: 80% 10% 10%;
     display: grid;
-    width: 80ex;
+    width: 80%;
     margin: auto;
 
 }
@@ -30,7 +30,7 @@ h1 {
 }
 
 /*väljer vart p taggen ska sitta i griden och väljer färg på den*/
-main p {
+main  p {
     grid-row: 3/4;
     color: #00203F;
     background-color: white;
@@ -47,9 +47,7 @@ footer img{
     width: 100px;
   
 }
-footer{
-    background: url("dator.svg");
-}
+
 
 /* väljer färg till min label*/
 label,
