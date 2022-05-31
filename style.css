@@ -98,6 +98,11 @@ header nav ul li a {
 }
 
 
+
+footer p:hover{
+ font-size: 200%;
+}
+
 /* grid system till footer + bakgrundsfärg + vilken text färg*/
 footer {
 display: grid;
@@ -107,6 +112,7 @@ display: grid;
   color: white;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
+  transition: width 10s;
 
 }
 /* lägger text i mitten + under och overline*/

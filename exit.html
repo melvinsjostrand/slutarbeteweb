@@ -38,8 +38,8 @@
   </header>
   <main>
 
-    <form action="exit.html">
-      <h1>
+    <form action="exit.html" tabindex="1">
+      <h1 tabindex="1">
         Build PC
       </h1>
       <p>Välj chassi</p>
@@ -80,37 +80,46 @@
      
       <input type="submit" value="Klar">
     </form>
-<h2>Olika datorer beroende budget från komplett
+<h2 tabindex="1">Olika datorer beroende budget från komplett
 </h2>
-    <ol start="1">
+    <ol start="1" tabindex="1">
       <li>
       <dl>
         <dt>HP Pavilion Gaming TG01-2023no</dt>
         <dd>GeForce GTX 1660 Super, Ryzen 5 5600G, 16GB RAM, 512 GB SSD,WiFi,Windows 11 Home</dd>
       </dl>
       </li>
+      <li>HP Pavilion Gaming TG01-2027no</li>
       <li>Acer Nitro N50-640</li>
       <li>Acer Predator Orion 3000</li>
       <li>MSI MAG Infinite</li>
       <li>MSI MEG Aegis Ti5</li>
     </ol>
  
-    <form action="exit.html">
+    <form action="exit.html" tabindex="1">
       <label for="dator">Välj din dator</label>
       <select name="dator" id="dator">
-      <option value="HP Pavilion Gaming TG01-2023no">HP Pavilion Gaming TG01-2023no</option>
+      <optgroup label="HP">
+         <option value="HP Pavilion Gaming TG01-2023no">HP Pavilion Gaming TG01-2023no
+           <option value="HP Pavilion Gaming TG01-2027no">HP Pavilion Gaming TG01-2027no</option>
+
+      </option></optgroup>
+      <optgroup label="Acer">
       <option value="Acer Nitro N50-640">Acer Nitro N50-640</option>
       <option value="Acer Predator Orion 3000">Acer Predator Orion 3000</option>
+    </optgroup>
+    <optgroup label="MSI">
       <option value="MSI MAG Infinite">MSI MAG Infinite</option>
       <option value="MSI MEG Aegis Ti5">MSI MEG Aegis Ti5</option>
+    </optgroup>
       </select>
       <input type="submit" value="Submit">
     </form>
 
     <iframe src="https://www.youtube.com/embed/PXaLc9AYIcg" title="YouTube video player"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-      <svg width="100" height="100">
+      allowfullscreen tabindex="1"></iframe>
+      <svg width="100" height="100" tabindex="1">
         <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
       </svg> 
     <audio autoplay loop>
@@ -118,12 +127,15 @@
     </audio>
     <form class="fråga" action="exit.html">
       <h2>Frågor?</h2>
-      <textarea name="Frågor?"></textarea>
+      <textarea name="Frågor?" tabindex="1"></textarea>
       
       <input type="submit">
     </form>
+    <label for="file" tabindex="1">Hur mycket du har läst på sidan</label>
+<progress id="file" value="100" max="100" tabindex="1"> 100% </progress>
+
   </main>
-  <footer>  <a class="knapp" href="nätagg.html">förra sidan</a>
+  <footer tabindex="1">  <a class="knapp" href="nätagg.html">förra sidan</a>
     <p> Gjord av Melvin Sjöstrand </p></footer>
 </body>
 

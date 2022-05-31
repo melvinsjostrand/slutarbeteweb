@@ -20,6 +20,7 @@ main img {
     width: 100%;
     height: 100%;
     vertical-align: baseline;
+    transform: skewX(10deg)
 }
 
 /*färg till huvud taggen*/
@@ -55,7 +56,12 @@ input {
     color: #00203F;
     background-color: white;
 }
-
+input:required{
+    background-color: green;
+     }
+input:optional{
+    background-color: yellow;
+}
 /* ändrar colum och row till en  rad och colum och texten centrerad*/
 @media screen and (max-width: 1230px) {
     main {
