@@ -3,3 +3,11 @@
 main img{
     height: 100%;
 }
+
+
+tr:nth-child(even){
+color: darkblue;
+}
+tr:nth-child(odd){
+    color: darkgreen;
+}
